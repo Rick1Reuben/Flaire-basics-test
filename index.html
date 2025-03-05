@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaire - Fashion Redefined</title>
+    <link rel="icon" href="https://th.bing.com/th?id=OIP.aTv0UvA33DNTpxSb2mrNZQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Flaire Logo" class="logo">
+            <h1>Flaire</h1>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="content">
+        <!-- Home Content -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h2>Style Meets Elegance</h2>
+                <p>Unleash your fashion sense with Flaire</p>
+                <a href="#showcase" class="btn">Explore</a>
+            </div>
+        </section>
+
+        <!-- Showcase Content -->
+        <section id="showcase" class="showcase">
+            <h2>Our Collection</h2>
+            <div class="gallery">
+                <div class="product" data-product-id="1">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 1">
+                    <div class="cart-icon">🛒</div>
+                </div>
+                <div class="product" data-product-id="2">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 2">
+                    <div class="cart-icon">🛒</div>
+                </div>
+                <div class="product" data-product-id="3">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 3">
+                    <div class="cart-icon">🛒</div>
+                </div>
+                <div class="product" data-product-id="4">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 4">
+                    <div class="cart-icon">🛒</div>
+                </div>
+                <div class="product" data-product-id="5">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 5">
+                    <div class="cart-icon">🛒</div>
+                </div>
+                <div class="product" data-product-id="6">
+                    <img src="https://th.bing.com/th/id/OIP.Bif1AeDpxBNsFAok0aTq1QHaJ2?w=144&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Fashion Style 6">
+                    <div class="cart-icon">🛒</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Content -->
+        <section id="about" class="about">
+            <h2>About Flaire</h2>
+            <p>Flaire is more than fashion; <br>it’s a lifestyle. We blend elegance with modern trends to create timeless styles.</p>
+        </section>
+        
+        <!-- Contact Content -->
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <p>Follow us on<a href="https://www.instagram.com/"/>Instagram</a> or email us at <a href="mailto:contact@flaire.com">contact@flaire.com</a></p>
+        </section>
+    </div>
+
+    <!-- Modal for Product Details -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="product-title"></h2>
+            <p id="product-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Flaire. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
